@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=8.3",
-    "sbominator/package": "dev-lib",
+    "sbominator/package": "dev-main",
     "minicli/minicli": "^4.2",
     "minicli/command-help": "^1.0"
   },

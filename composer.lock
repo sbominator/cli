@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "877a5903e186b98e7af03273aa4bba76",
+    "content-hash": "e8fcc28948acdd88404e1ac754c26bd8",
     "packages": [
         {
             "name": "minicli/command-help",
@@ -107,21 +107,22 @@
         },
         {
             "name": "sbominator/package",
-            "version": "dev-lib",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "git@github.com:sbominator/package.git",
-                "reference": "ccbbdf07a0122c2fa3a16dc206b661dc516abd7c"
+                "reference": "e6c074a9b9ae69d8439363a33cc71c1edaf04ecc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sbominator/package/zipball/ccbbdf07a0122c2fa3a16dc206b661dc516abd7c",
-                "reference": "ccbbdf07a0122c2fa3a16dc206b661dc516abd7c",
+                "url": "https://api.github.com/repos/sbominator/package/zipball/e6c074a9b9ae69d8439363a33cc71c1edaf04ecc",
+                "reference": "e6c074a9b9ae69d8439363a33cc71c1edaf04ecc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.3"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -141,7 +142,7 @@
                 "source": "https://github.com/sbominator/package/tree/lib",
                 "issues": "https://github.com/sbominator/package/issues"
             },
-            "time": "2025-03-16T08:33:13+00:00"
+            "time": "2025-03-16T09:24:14+00:00"
         }
     ],
     "packages-dev": [
