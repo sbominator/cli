@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=8.3",
-    "sbominator/package": "dev-main",
+    "sbominator/sbom-lib": "dev-main",
     "minicli/minicli": "^4.2",
     "minicli/command-help": "^1.0"
   },
