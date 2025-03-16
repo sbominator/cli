@@ -1,0 +1,14 @@
+
+Deprecated: beforeEach(): Implicitly marking parameter $closure as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/vendor/pestphp/pest/src/Functions.php on line 49
+
+Deprecated: test(): Implicitly marking parameter $description as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/vendor/pestphp/pest/src/Functions.php on line 90
+
+Deprecated: test(): Implicitly marking parameter $closure as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/vendor/pestphp/pest/src/Functions.php on line 90
+
+Deprecated: it(): Implicitly marking parameter $closure as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/vendor/pestphp/pest/src/Functions.php on line 110
+
+Deprecated: afterEach(): Implicitly marking parameter $closure as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/vendor/pestphp/pest/src/Functions.php on line 124
+
+Deprecated: Minicli\Logging\Logger::log(): Implicitly marking parameter $level as nullable is deprecated, the explicit nullable type must be used instead in /var/www/html/vendor/minicli/minicli/src/Logging/Logger.php on line 38
+
+[0;36mThis is a test controller.[0m

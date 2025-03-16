@@ -1,0 +1,42 @@
+{
+  "name": "sbominator/cli",
+  "description": "SBOMinator CLI",
+  "license": "MIT",
+  "homepage": "https://github.com/sbominator/cli",
+  "keywords": ["cli"],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "repositories": [
+  {
+      "type": "vcs",
+      "url":  "git@github.com:sbominator/package.git"
+  }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "sbominator/package": "dev-lib",
+    "minicli/minicli": "^4.2",
+    "minicli/command-help": "^1.0"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.23",
+    "laravel/pint": "^1.10"
+  },
+  "scripts": {
+    "lint" : ["pint"],
+    "test:lint" : ["pint --test"],
+    "test:unit" : ["pest"],
+    "test" : [
+      "@test:lint",
+      "@test:unit"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
