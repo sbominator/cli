@@ -9,5 +9,27 @@
       "prerelease": false
     }
   },
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Added",
+      "hidden": false
+    },
+    {
+      "type": "fix",
+      "section": "Fixed",
+      "hidden": false
+    },
+    {
+      "type": "deps",
+      "section": "Changed",
+      "hidden": false
+    },
+    {
+      "type": "perf",
+      "section": "Performance Improvements",
+      "hidden": false
+    }
+  ],
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
