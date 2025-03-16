@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Command\Scan;
+namespace SBOMinator\Cli\Command\Scan;
 
-use App\Helper\DirectoryHelper;
+use SBOMinator\Cli\Helper\DirectoryHelper;
 use SBOMinator\Dependency;
 use Minicli\Command\CommandController;
 use SBOMinator\Parser\SpdxParser;

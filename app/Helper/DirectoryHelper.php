@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helper;
+namespace SBOMinator\Cli\Helper;
 
 class DirectoryHelper
 {
