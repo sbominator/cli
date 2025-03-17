@@ -12,7 +12,7 @@ class DefaultController extends CommandController
 
     private string $helpMessage = <<<HELP
 Usage:
-  convert input-file=FILEPATH output-file=FILEPATH [input-format=FORMAT] [output-format=FORMAT] [--help]
+  convert input-file=FILEPATH output-file=FILEPATH [input-format=FORMAT] [output-format=FORMAT
 
 Description:
   This command converts a Software Bill of Materials (SBOM) file between SPDX and CycloneDX formats.
@@ -20,20 +20,18 @@ Description:
   to the specified output format.
 
 Arguments:
-  --input-file       Path to the input SBOM file.
-  --output-file      Path where the converted SBOM file will be saved.
-  --input-format     Format of the input file. Available formats: "spdx", "cyclonedx".
+  input-file       Path to the input SBOM file.
+  output-file      Path where the converted SBOM file will be saved.
+  input-format     Format of the input file. Available formats: "spdx", "cyclonedx".
                      Default: "autodetect" (automatically detects the format).
-  --output-format    Format for the converted file. Available formats: "spdx", "cyclonedx".
+  output-format    Format for the converted file. Available formats: "spdx", "cyclonedx".
                      Default: "autodetect" (selects the opposite of the detected input format).
-  --help             Display this help message.
-
 Examples:
   Convert an SBOM file with auto-detection:
-    convert --input-file=./sbom.json --output-file=./converted.json
+    convert input-file=./sbom.json output-file=./converted.json
 
   Convert specifying the formats explicitly:
-    convert --input-file=./sbom.json --output-file=./converted.json --input-format=spdx --output-format=cyclonedx
+    convert input-file=./sbom.json output-file=./converted.json input-format=spdx output-format=cyclonedx
 
 Available Formats:
   - spdx      : Software Package Data Exchange format.
