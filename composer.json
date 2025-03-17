@@ -14,6 +14,7 @@
   "require": {
     "php": ">=8.3",
     "sbominator/sbom-lib": "^0.3.0",
+    "sbominator/scaninator": "^0.1.0",
     "minicli/minicli": "^4.2",
     "minicli/command-help": "^1.0"
   },
