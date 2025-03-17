@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/sbominator/cli/compare/v0.2.0...v0.3.0) (2025-03-17)
+
+
+### Features
+
+* add helpful introduction to the cli when you run it ([6cb781a](https://github.com/sbominator/cli/commit/6cb781acc9ff6213c040eb81d9d9439bc62051a7))
+
 ## [0.2.0](https://github.com/sbominator/cli/compare/v0.1.0...v0.2.0) (2025-03-17)
 
 
