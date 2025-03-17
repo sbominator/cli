@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/sbominator/cli/compare/v0.1.0...v0.2.0) (2025-03-17)
+
+
+### Features
+
+* add directory scanner and scaninator, add convert command for transformatron ([10cc701](https://github.com/sbominator/cli/commit/10cc701310f79c358bbaa3bfbb9a01ae588a3ca4))
+
 ## [0.1.0](https://github.com/sbominator/cli/compare/v0.0.1...v0.1.0) (2025-03-16)
 
 
