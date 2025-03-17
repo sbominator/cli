@@ -8,14 +8,16 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\": "app/"
+      "SBOMinator\\Cli\\": "app/"
     }
   },
   "require": {
     "php": ">=8.3",
-    "sbominator/sbom-lib": "^0.3.0",
+    "sbominator/sbom-lib": "^0.5.0",
+    "sbominator/transformatron": "^0.1.0",
     "minicli/minicli": "^4.2",
-    "minicli/command-help": "^1.0"
+    "minicli/command-help": "^1.0",
+    "sbominator/scaninator": "^0.1.2"
   },
   "require-dev": {
     "pestphp/pest": "^1.23",

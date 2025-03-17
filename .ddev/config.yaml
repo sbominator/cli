@@ -1,4 +1,4 @@
-name: sbominator-cli
+name: sbominator-cli-d
 type: generic
 docroot: ""
 php_version: "8.3"
